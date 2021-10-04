@@ -1,0 +1,27 @@
+{
+    "name": "temp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon -r esm index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "https": "^1.0.0",
+        "memory-cache": "^0.2.0",
+        "mongoose": "^5.12.13",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
